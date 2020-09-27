@@ -264,6 +264,7 @@ body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4 {
 }
 
 .display1 {
+    background-color: rgb(97, 87, 87);
     position: absolute;
     width: 80%;
     margin-left: 10%;
@@ -296,6 +297,7 @@ body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4 {
 }
 
 .logofont {
+    color: rgba(255, 255, 255, 0.71);
     font-family: Klavika, 'Muli', sans-serif;
 }
 
@@ -501,8 +503,8 @@ h3.logofont {
 /* STRAN 2 */
 
 #slide02 {
-    /*background: linear-gradient(60deg, #eee, deepskyblue);*/
-    background: white;
+    background: linear-gradient(to left, #6e1c93, #8942a8);
+   /* background: linear-gradient(60deg, #eee, deepskyblue); */
 }
 
 #stran2Mondrian {

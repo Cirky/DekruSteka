@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Dekru Šteka</title>
+    <title>Dékru Šteka</title>
     <!-- ICON -->
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
@@ -30,8 +30,8 @@
     <h1 id="mainNaslov" class="ml5">
 	  <span class="text-wrapper">
 		<span class="line line1"></span>
-		<span class="letters letters-left">DEKRU</span>
-		<span class="letters letters-right">ŠTEKA</span>
+		<span class="letters letters-left"><b>DÉKRU</b></span>
+		<span class="letters letters-right"><b>ŠTEKA</b></span>
 		<span class="line line2"></span>
 	  </span>
     </h1>
@@ -66,21 +66,74 @@
 </div>
 
 <div class="slides-container">
-    <div class="animation-area">
-        <ul class="box-area">
-            <!--				<li style="font-size: 25px; width: 200px">Vsakršni okraski uničujejo učinek znaka in logotipa.</li>-->
-            <li>
-                <img src="img/bob.png" width="120px" height="120px" alt="bob">
-            </li>
-            <li> <img src="img/file.png" width="120px" height="120px" alt="file"> </li>
-            <li> <img src="img/ian.png" width="120px" height="120px" alt="ian"> </li>
-            <li> <img src="img/jozo.png" width="120px" height="120px" alt="jozo"> </li>
-            <li><img src="img/mai2.png" width="120px" height="120px" alt="mai"></li>
-            <li><img src="img/mart.png" width="120px" height="120px" alt="mart"></li>
-            <li><img src="img/ogu.png" width="120px" height="120px" alt="ogu"></li>
+    <div class="stran active" id="slide01">
 
-        </ul>
+        <div class="card display1">
+            <div class="display1slide display1slide1">
+                <div id="logotip" class="mt-3 ml-3">
+                    <div class="d-flex w-100 justify-content-between">
+                        <h3 class="m-0 logofont font">KDO SMO?!</h3>
+
+                    </div>
+                    <!--					<div class="mt-3 position-absolute" style="right: 5px; top: 5px">-->
+                    <!--						<button class="stran4Povezava" onclick="display1ChangeSlide(1)"><span>Galerija Vizitk</span></button>-->
+                    <!--					</div>-->
+                    <p class="logofont">
+                        <b>Jošt Rudman - klavir/trobenta</b> – Glava družine.<br>
+                        <b>Bor Zirkelbach - glas/kitara/klavir</b> – Osvajalec mamic.<br>
+                        <b>Martin Koncilija - bas kitara</b> – Priskrbi publiko iz splošne.<br>
+                        <b>Filip Derganc - saksofon</b> – Poseksa te s saks skilli.<br>
+                        <b>Aljaž Ogulin - bobni</b> – Vitez ritma.<br>
+                        <b>Lan Zirkelbach- kitara/bariton saksofon</b> – Suveren, konstanten in zanesljiv.<br>
+                        <b>Maj Zirkelbach - tolkala</b> – Da ceu bend mau lepš zgleda.<br>
+                    </p>
+                    <p class="logofont">
+                        <b>KONTAKT:</b><br>
+                        <b>Facebook:</b><br>
+                        <b>Instagram:</b><br>
+                        <b>Gmail:</b><br>
+                        <b>Telefon:</b><br>
+
+                    </p>
+
+                </div>
+                <div class="logoImgContainer">
+                    <img id="logoImg" class="" src="img/cover.jpg" width="100%" height="100%">
+
+                  <!--  <img id="logoSvg" src="img/FRIvP.png"> -->
+
+                </div>
+            </div>
+        </div>
+        <div class="animation-area">
+            <ul class="box-area">
+                <!--				<li style="font-size: 25px; width: 200px">Vsakršni okraski uničujejo učinek znaka in logotipa.</li>-->
+                <li>
+                    <img src="img/glave/bob.png" width="120px" height="120px" alt="bob">
+                </li>
+                <li> <img src="img/glave/file.png" width="120px" height="120px" alt="file"> </li>
+                <li> <img src="img/glave/ian.png" width="120px" height="120px" alt="ian"> </li>
+                <li> <img src="img/glave/jozo.png" width="120px" height="120px" alt="jozo"> </li>
+                <li><img src="img/glave/mai2.png" width="120px" height="120px" alt="mai"></li>
+                <li><img src="img/glave/mart.png" width="120px" height="120px" alt="mart"></li>
+                <li><img src="img/glave/ogu.png" width="120px" height="120px" alt="ogu"></li>
+
+            </ul>
+        </div>
+        <div class="md-modal md-effect-8" onclick="hideModal()">
+            <div class="md-content">
+                <img class="vizitkaItem" id="modalVizitka" alt="" src="">
+            </div>
+        </div>
+        <div class="md-overlay"></div>
     </div>
+    <div class="stran" id="slide02">
+
+
+
+    </div>
+
+
 
 </div>
 

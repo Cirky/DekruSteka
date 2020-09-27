@@ -1,0 +1,40 @@
+#buttonPanel {
+    position:relative;
+    margin: auto;
+    width: 100%;
+    max-width: 750px
+}
+
+#buttonPanel2 {
+    position:relative;
+    margin: auto;
+    width: 100%;
+    max-width: 1000px
+}
+
+#buttonPanel3 {
+    position:relative;
+    margin: auto;
+    width: 100%;
+    max-width: 1000px
+}
+
+#corouselGIF .card-body {
+    min-height: initial;
+}
+
+#corouselGIF .card-body .card-text {
+    position: absolute;
+    bottom: 0.9375rem;
+    left: 10px
+}
+
+#corouselGIF .carousel-item .row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+#corouselGIF .carousel-item .card-img-top {
+    margin-bottom: 20px;
+}
+

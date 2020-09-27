@@ -1,0 +1,94 @@
+@font-face {
+    font-family: Klavika;
+    src: url(fonts/Klavika/klavika-medium.otf);
+}
+
+@font-face {
+    font-family: Klavika;
+    src: url(fonts/Klavika/klavika-medium-italic.otf);
+    font-style: italic;
+}
+
+@font-face {
+    font-family: Klavika;
+    src: url(fonts/Klavika/klavika-bold.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Klavika;
+    src: url(fonts/Klavika/klavika-bold-italic.otf);
+    font-style: italic;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: Klavika;
+    src: url(fonts/Klavika/klavika-light.otf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: Klavika;
+    src: url(fonts/Klavika/klavika-light-italic.otf);
+    font-style: italic;
+    font-weight: 300;
+}
+
+body, div, p {
+    margin: 0;
+    padding: 0;
+    font-family: Klavika, sans-serif;
+    /*font-family:sans-serif;*/
+}
+
+.go {
+    width: 25px;
+    stroke: #636363;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    fill: none;
+    z-index:12;
+}
+.go-prev, .go-next {
+    position:absolute;
+    cursor: pointer;
+    top:45%;
+    left: 5px;
+}
+.go-next {
+    left:calc(100% - 32px)
+}
+
+/*h1 {*/
+/*    position:absolute;*/
+/*    top:50%;*/
+/*    width: 100%;*/
+/*    font-weight: 800;*/
+/*    font-size: 36px;*/
+/*    margin: 0;*/
+/*}*/
+
+.slides-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.stran {
+    position: absolute;
+    top:0;
+    left: 100%;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    /*background-color: grey;*/
+    background: linear-gradient(60deg, #eee, #bdbdbd);
+    overflow: hidden;
+}
+

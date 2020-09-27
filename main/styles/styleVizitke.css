@@ -1,0 +1,28 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#navigation {
+    position: fixed;
+    z-index: 1000;
+    padding: 0;
+
+}
+
+.navbar-brand {
+    font-size: 15pt !important;
+}
+
+.nav-link {
+    font-size: 10pt !important;
+}
+
+.list-group-item {
+    border-bottom: lightgrey 1px solid;
+}
+
+.ime {
+    margin-top: 50px;
+    margin-left: 0;
+    margin-right: 0;
+}
